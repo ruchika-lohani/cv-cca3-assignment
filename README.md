@@ -22,7 +22,7 @@ cv-cca3-assignment/
   CCA3_CV_Assignment.ipynb
   requirements.txt
   README.md
-  data/        input photographs (video is on Google Drive)
+  data/        input photographs (https://drive.google.com/file/d/1tLp7j6HS2tJs92wfMBUANKnra3hjpDEF/view?usp=sharing)
   outputs/     all result figures and CSV tables
 ```
 
@@ -50,7 +50,7 @@ Put these files in the `data/` folder:
 | `objects_scene.jpg` | bottle, remote, phone, mouse and notebook (detection) |
 | `video.mp4` | original video of my study table, about 29 seconds, 60 fps |
 
-The photographs are in this repository. The raw video is too large for Git: download it from Google Drive: (paste link here) and save it as `data/video.mp4`.
+The photographs are in this repository. The raw video is too large for Git: download it from Google Drive: (https://drive.google.com/file/d/1tLp7j6HS2tJs92wfMBUANKnra3hjpDEF/view?usp=sharing) and save it as `data/video.mp4`.
 
 The photographs and the video were transferred to the computer via WhatsApp, so they are compressed copies of the originals.
 
