@@ -1,6 +1,8 @@
 # CCA 3: Computer Vision Assignment (Units 3, 4 and 5)
 
 Name: Ruchika Lohani
+
+
 PRN: 1272250612
 
 ## About
@@ -14,3 +16,56 @@ Practical assignment on image restoration, segmentation, feature extraction, obj
 | Task 4 | Frame differencing, GMM (MOG2) background subtraction, Lucas-Kanade optical flow |
 
 ## Folder structure
+
+```
+cv-cca3-assignment/
+  CCA3_CV_Assignment.ipynb
+  requirements.txt
+  README.md
+  data/        input photographs (video is on Google Drive)
+  outputs/     all result figures and CSV tables
+```
+
+## Setup
+Tested with Python 3.13 on Windows.
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+Ultralytics may install `opencv-python` as well. If OpenCV gives errors, run:
+```bash
+pip uninstall -y opencv-python opencv-contrib-python
+pip install opencv-contrib-python
+```
+
+## Input data
+Put these files in the `data/` folder:
+
+| File | Description |
+|---|---|
+| `original.jpg` | original portrait photograph |
+| `second1.jpg`, `second2.jpg` | second photographs of the same scene (SIFT matching) |
+| `objects.jpg` | rice grains on a dark table (watershed) |
+| `objects_scene.jpg` | bottle, remote, phone, mouse and notebook (detection) |
+| `video.mp4` | original video of my study table, about 29 seconds, 60 fps |
+
+The photographs are in this repository. The raw video is too large for Git: download it from Google Drive: (paste link here) and save it as `data/video.mp4`.
+
+The photographs and the video were transferred to the computer via WhatsApp, so they are compressed copies of the originals.
+
+The Haar cascade file `data/haarcascade_frontalface_default.xml` is downloaded from the OpenCV GitHub repository by the notebook, and `yolov8n.pt` is downloaded automatically by Ultralytics.
+
+## How to run
+```bash
+jupyter notebook
+```
+Open `CCA3_CV_Assignment.ipynb` and choose Kernel > Restart & Run All. The SIFT, YOLO and video cells take a while. All figures are saved in `outputs/`.
+
+## Example results
+![Watershed](outputs/fig9_watershed_peaks.png)
+![SIFT matching](outputs/fig14_all_matches.png)
+![Motion comparison](outputs/fig22_motion_comparison.png)
+
+## Links
+Project explanation video: (paste Google Drive link here)
