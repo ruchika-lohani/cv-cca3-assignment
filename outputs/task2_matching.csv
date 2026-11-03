@@ -1,0 +1,6 @@
+Second image,Keypoints (image 2),Matches (ratio test),RANSAC inliers
+Unmodified,380,67,24
+Rotated 45 deg,468,59,22
+Rotated 90 deg,378,68,26
+Resized 50%,165,51,19
+Rotated 45 + Resized 50%,194,48,18

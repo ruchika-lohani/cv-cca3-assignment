@@ -1,0 +1,3 @@
+Image,Haar faces,YOLO detections
+Video frame (motion),0,"person (0.76), cell phone (0.32)"
+Video frame (quiet),0,"cup (0.41), cell phone (0.35), person (0.33)"

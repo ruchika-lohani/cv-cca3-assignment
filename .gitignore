@@ -1,0 +1,8 @@
+venv/
+temp/
+pipcache/
+.ipynb_checkpoints/
+__pycache__/
+*.mp4
+*.mov
+*.pt

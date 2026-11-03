@@ -1,0 +1,4 @@
+Method,Output,Motion example,Quiet example,Time per frame (ms)
+Frame differencing,Binary mask,22.32% pixels,0.00% pixels,0.56
+GMM (MOG2),Foreground mask,5.00% pixels,0.63% pixels,11.82
+Lucas-Kanade,Motion vectors,131 of 287 points moved,1 of 284 points moved,18.57

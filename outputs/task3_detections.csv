@@ -1,0 +1,4 @@
+Image,Haar faces,YOLO detections
+Original photo,2,person (0.93)
+Second photo,1,person (0.94)
+Objects scene,0,"cell phone (0.87), mouse (0.77), bottle (0.76), remote (0.61), cell phone (0.61)"
