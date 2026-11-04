@@ -1,8 +1,0 @@
-opencv-contrib-python
-numpy
-scipy
-matplotlib
-scikit-image
-pandas
-ultralytics
-jupyter
