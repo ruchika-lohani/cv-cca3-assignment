@@ -22,7 +22,7 @@ cv-cca3-assignment/
   CCA3_CV_Assignment.ipynb
   requirements.txt
   README.md
-  data/        input photographs (https://drive.google.com/file/d/1tLp7j6HS2tJs92wfMBUANKnra3hjpDEF/view?usp=sharing)
+  data/        input photographs (the video is on Google Drive, see Input data)
   outputs/     all result figures and CSV tables
 ```
 
