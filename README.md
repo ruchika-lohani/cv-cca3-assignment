@@ -68,4 +68,4 @@ Open `CCA3_CV_Assignment.ipynb` and choose Kernel > Restart & Run All. The SIFT,
 ![Motion comparison](outputs/fig22_motion_comparison.png)
 
 ## Links
-Project explanation video: (paste Google Drive link here)
+Project explanation video: https://drive.google.com/file/d/1NzfZ3vEwWPi2Rr44peBetzCAfkJSxVoV/view?usp=sharing
